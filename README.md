@@ -2,12 +2,15 @@
 Python script to batch download images from Shutterstock from a list using browser automation (non-API).
 
 Dependencies:
+
 csv, time, datetime, argparse, logging, pathlib, playwright
 
 To Run at Command Line:
+
 python Bulk-Download-Images-from-Shutterstock.py <SHUTTERSTOCK_UID> <SHUTTERSTOCK_PASSWORD> <PATH_TO_INPUT_CSV> <PATH_TO_DOWLOAD_FOLDER>
 
 To See Help:
+
 python Bulk-Download-Images-from-Shutterstock.py -h
 
 The input should be a CSV file, one column, with the header "description" and each phrase to search on Shutterstock.com listed below that. Example:
