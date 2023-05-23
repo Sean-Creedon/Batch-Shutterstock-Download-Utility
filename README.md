@@ -13,7 +13,9 @@ To See Help:
 
 python Bulk-Download-Images-from-Shutterstock.py -h
 
-The input should be a CSV file, one column, with the header "description" and each phrase to search on Shutterstock.com listed below that. Example:
+The input should be a CSV file, one column, with the header "description" and each phrase to search on Shutterstock.com listed below that.
+
+Example:
 
 description
 
